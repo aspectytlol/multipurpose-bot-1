@@ -2,7 +2,7 @@ const dbd = require("dbd.js")
 
 const bot = new dbd.Bot({
   mobile: false, // you can change it to "true" if you want a mobile status
-  token: "TOKEN", // change TOKEN with your bot token
+  token: "ODU0NTIxNTU0NjU0NDYxOTUz.YMlJNg.mddiAEQ28H83GTImVyS4EdGylVg", // change TOKEN with your bot token
   prefix: ['$getServerVar[prefix]', '<@!$clientID>', '<@$clientID>'] // you may change the bot's main prefix in vars.js
 })
 
@@ -11,7 +11,7 @@ bot.onMessage({
 })
 
 bot.status({
-    text: `with $serverCount servers`, // put any text
+    text: `Tempo Region 100+`, // put any text
     type: "PLAYING", // LISTENING, PLAYING, WATCHING, COMPETING
     status: "online", // online, dnd, idle, invisible
     time: 75 // amount of times where you can change the bot status (if have multiple statuses)
